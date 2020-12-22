@@ -100,16 +100,12 @@ int main(){
 	for(i=0;i<aee_size;i++){
 		printf("%d - %d  :  %d\n",aee[i]->p1,aee[i]->p2,aee[i]->weight);
 	}
-	edgesort();
-		printf("array of edjes after sorting\n");
-	for(i=0;i<aee_size;i++){
-		printf("%d - %d  :  %d\n",aee[i]->p1,aee[i]->p2,aee[i]->weight);
-	}
-/*	printf("edge matrix \n");
+	
+	printf("edge matrix \n");
 	for(i=0;i<v;i++){
 		for(j=0;j<v;j++){
 			printf("%d   ",w[i][j]);
 		}
 		printf("\n");
-	}*/
+	}
 	}
